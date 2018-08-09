@@ -1,4 +1,5 @@
 
-function robin(){
-    console.log("robin")
-}
+import {test,b} from "./utils/index.js"
+test();
+b();
+a();
