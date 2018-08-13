@@ -1,11 +1,19 @@
 
 import {test,b} from "./utils/index.js"
-test();
-b();
 
-function a(){
 
-}
-var c="robin"
-console.log("robin")
-alert("r9obin")
+import Vue from "vue";
+
+
+import btn from "./comps/button/button.vue"
+
+
+
+new Vue({
+    el:"#app",
+    data:{
+        title:"robin"
+    }
+})
+
+
