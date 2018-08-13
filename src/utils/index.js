@@ -6,6 +6,7 @@ function test(){
 
 function b(){
     console.log("this is b")
+    console.log("robin")
 }
 
 export {test,b}

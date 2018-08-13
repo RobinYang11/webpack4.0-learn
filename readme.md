@@ -23,3 +23,24 @@
 
 # 生成sourcemap文件
     在webpack.config.js中增加 devtool: 'inline-source-map',
+
+# 使用webpack观察模式 自动打包文件
+    在 scripts 中增加如下选项 
+    "watch":"webpack --watch"
+    然后运行npm run watch  
+    当有文件 变化时，webpack会自动打包 
+
+# 使用 webpack-dev-server 启动一个前端服务器
+    npm install --save-dev webpack-dev-server
+    配置scripts
+    devServer: {
+        contentBase: './dist'
+    },
+# 使用 webpack-dev-middleware 中间件 和express 搭建前端服务器  
+    npm install --save-dev express webpack-dev-middleware
+    在配置文件中的output 中增加如下代码，以确保前端服务器正常访问
+    publicPath: '/'
+# 启动HMR 
+    
+    
+

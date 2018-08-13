@@ -2,4 +2,10 @@
 import {test,b} from "./utils/index.js"
 test();
 b();
-a();
+
+function a(){
+
+}
+var c="robin"
+console.log("robin")
+alert("r9obin")
